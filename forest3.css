@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    height: 300px;
+   
+    /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+  h2{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: oblique;
+      color: black;
+      text-decoration: underline orangered;
+      text-underline-position: below; 
+  }
+  .lable{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 18px 0;
+    box-sizing: border-box;
+    border: 3px; 
+  }
+  .submit{
+      background-color: grey;
+      color: orange; 
+  }
+  footer { 
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  } 
